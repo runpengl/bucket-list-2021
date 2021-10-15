@@ -1,0 +1,206 @@
+<html>
+  <head>
+    <title>🎩 quick puzzle??</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Poppins:200,300,400,500,600,700|Roboto+Mono:200,300,400,500,600,700" rel="stylesheet">
+    <style>
+      body {
+      background-color: #101010;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      color: rgb(200, 200, 200);
+      }
+      h1 {
+      color: white;
+      }
+      p {
+      font-family: 'Open Sans', sans-serif;
+      margin-bottom: 30px;
+      }
+      .content {
+      padding: 50px 70px;
+      }
+      ul {
+      padding: 16px 0;
+      list-style-type:none;
+      }
+      ul li {
+      margin-bottom: 16px;
+      }
+      ul li input {
+      margin-left: 10px;
+      font-size: 16px;
+      font-family: 'Roboto Mono', monospace;
+      background-color: rgb(37, 37, 37);
+      color: rgb(243, 244, 254);
+      outline: none;
+      border: none;
+      border-radius: 20px;
+      padding: 7px 14px;
+      }
+      ul li input:focus {
+      background-color: rgb(62, 62, 62);
+      }
+      .row {
+      margin: 16px;
+      margin-left: 0;
+      display: inline-flex;
+      }
+      .row div {
+      height: 28px;
+      width: 25px;
+      border: solid white 0.5px;
+      text-align: center;
+      border-radius: 2px;
+      margin-right: 3px;
+      padding: 0;
+      }
+      .row input {
+      height: 30px;
+      width: 25px;
+      border: solid white 0.5px;
+      text-align: center;
+      border-radius: 2px;
+      margin-right: 3px;
+      color: rgb(243, 244, 254);
+      outline: none;
+      font-size: 16px;
+      }
+      .row input::-webkit-outer-spin-button,
+      .row input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+      }
+      .row .d {
+      font-family: 'Poppins', sans-serif;
+      background-color: rgb(62, 62, 62);
+      }
+      .row .l {
+      background-color: #a32472;
+      font-family: 'Roboto Mono', monospace;
+      text-transform: uppercase;
+      }
+      .row .l:focus {
+      background-color: #c84789;
+      }
+      .slash {
+      font-size: 30px;
+      margin-left: 160px;
+      font-family: monospace;
+      }
+      .rarrow {
+      font-size: 24px;
+      margin-left: 5px;
+      margin-right: 10px;
+      transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Bucket List</h1>
+      <p><i>Taking a trip through time to cross items off this bucket list, what's the final site you should visit?</i></p>
+      <hr/>
+      <ul>
+        <li>Deliver speech repealing the Missouri Compromise (7 7) <input type="text" maxlength="16"/></li>
+        <li>Establish prestigious private university in Utah (7 5) <input type="text" maxlength="16"/></li>
+        <li>Publish classic English novel under a pen name (9 6) <input type="text" maxlength="16"/></li>
+        <li>Assemble executive committee in response to missile crisis (4 1 7) <input type="text" maxlength="16"/></li>
+        <li>Assume papacy as head of the Catholic Church (4 4 2) <input type="text" maxlength="16"/></li>
+        <li>Become leader of the Soviet Communist Party (6 8) <input type="text" maxlength="16"/></li>
+        <li>Die at the hands of French revolutionaries (5 10) <input type="text" maxlength="16"/></li>
+        <li>Invoke War Measures Act during crisis in Canada (6 7) <input type="text" maxlength="16"/></li>
+        <li>Be born! (6 4) <input type="text" maxlength="16"/></li>
+        <li>Found a magical multinational entertainment company (4 6) <input type="text" maxlength="16"/></li>
+      </ul>
+      <div class="row">
+        <input class="d" type="number"/>
+        <div class="y">8</div>
+        <div class="y">4</div>
+        <div class="y">7</div>
+        <span class="rarrow">→</span><input class="l" type="text" maxlength="1" />
+      </div>
+      <br/>
+      <div class="row">
+        <div class="y">1</div>
+        <div class="y">8</div>
+        <div class="y">5</div>
+        <input class="d" type="number"/>
+        <span class="rarrow">→</span><input class="l" type="text" maxlength="1" />
+      </div>
+      <br/>
+      <div class="row">
+        <div class="y">1</div>
+        <div class="y">8</div>
+        <input class="d" type="number"/>
+        <div class="y">5</div>
+        <span class="rarrow">→</span><input class="l" type="text" maxlength="1" />
+      </div>
+      <br/>
+      <div class="row">
+        <div class="y">1</div>
+        <input class="d" type="number"/>
+        <div class="y">2</div>
+        <div class="y">3</div>
+        <span class="rarrow">→</span><input class="l" type="text" maxlength="1" />
+      </div>
+      <br/>
+      <div class="row">
+        <div class="y">1</div>
+        <div class="y">7</div>
+        <input class="d" type="number"/>
+        <div class="y">3</div>
+        <span class="rarrow">→</span><input class="l" type="text" maxlength="1" />
+      </div>
+      <br/>
+      <span class="slash">/</span><br/>
+      <div class="row">
+        <input class="d" type="number"/>
+        <div class="y">9</div>
+        <div class="y">7</div>
+        <div class="y">0</div>
+        <span class="rarrow">→</span><input class="l" type="text" maxlength="1" />
+      </div>
+      <br/>
+      <div class="row">
+        <div class="y">1</div>
+        <input class="d" type="number"/>
+        <div class="y">6</div>
+        <div class="y">4</div>
+        <span class="rarrow">→</span><input class="l" type="text" maxlength="1" />
+      </div>
+      <br/>
+      <div class="row">
+        <div class="y">1</div>
+        <input class="d" type="number"/>
+        <div class="y">6</div>
+        <div class="y">2</div>
+        <span class="rarrow">→</span><input class="l" type="text" maxlength="1" />
+      </div>
+      <br/>
+      <div class="row">
+        <div class="y">1</div>
+        <div class="y">9</div>
+        <input class="d" type="number"/>
+        <div class="y">2</div>
+        <span class="rarrow">→</span><input class="l" type="text" maxlength="1" />
+      </div>
+      <br/>
+      <div class="row">
+        <input class="d" type="number"/>
+        <div class="y">9</div>
+        <div class="y">7</div>
+        <div class="y">8</div>
+        <span class="rarrow">→</span><input class="l" type="text" maxlength="1" />
+      </div>
+      <br/>
+    </div>
+    <script>
+      setTimeout(() => { document.getElementsByTagName("input")[0].focus(); });
+      for (let i = 0; i < document.getElementsByClassName("d").length; i++) {
+          document.getElementsByClassName("d")[i].oninput = function() {
+              if (this.value.length > 1) this.value = this.value.slice(0, 1);
+          }
+      }
+    </script>
+  </body>
+</html>
